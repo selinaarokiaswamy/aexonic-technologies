@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "god-speed-games-assignment"
+    }
+  },
+  "defaultProject": "god-speed-games-assignment",
+  "cli": {
+    "analytics": "3e813fa4-31c6-4f1a-8f23-7e0804c287e3"
+  }
 }

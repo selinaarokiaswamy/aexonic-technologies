@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "RB",
+      "title": "Diwali offer",
+      "description": "1800 coins",
+      "price": 129.99,
+      "offer": 35,
+      "image_url": "../../../assets/124368029-summer-sale-banner-background-vector-for-promotion-your-items-with-banana-leaves-and-sky.jpg",
+      "type": "coins",
+      "amount": 1800,
+      "start_time": "2021-02-12 20:00:00",
+      "end_time": "2021-02-15 13:00:00"
+    },
+    {
+      "id": "EKB",
+      "title": "christmas offer",
+      "description": "1300 Gems on Xsolla",
+      "price": 97.49,
+      "offer": 25,
+      "image_url": "../../../assets/f9646c39066121b871f4ed0e404d1780.jpg",
+      "type": "gems",
+      "amount": 1300,
+      "start_time": "2021-02-12 20:00:00",
+      "end_time": "2021-02-15 13:00:00"
+    },
+    {
+      "id": "DPB",
+      "title": "valentines offer",
+      "description": "800 Gems",
+      "price": 64.99,
+      "offer": 0,
+      "image_url": "../../../assets/valentine-day-sale_23-2148833523.jpg",
+      "type": "gems",
+      "amount": 800,
+      "start_time": "2021-02-11 20:00:00",
+      "end_time": "2021-02-12 13:00:00"
+    },
+    {
+      "id": "DS",
+      "title": "offer 1",
+      "description": "800 Gems",
+      "price": 67.99,
+      "offer": 48,
+      "image_url": "../../../assets/black-friday-promotional-sale-banner-shopping-products-discount-electronics-computers-touch-screen-devices-127392139.jpg",
+      "type": "gems",
+      "amount": 800,
+      "start_time": "2021-02-14 20:00:00",
+      "end_time": "2021-02-16 13:00:00"
+    },
+    {
+      "id": "DS",
+      "title": "offer 2",
+      "description": "800 Gems",
+      "price": 167.99,
+      "offer": 50,
+      "image_url": "../../../assets/download.jpg",
+      "type": "gems",
+      "amount": 800,
+      "start_time": "2021-02-14 20:00:00",
+      "end_time": "2021-02-16 13:00:00"
+    },
+    {
+      "id": "DS",
+      "title": "offer 3",
+      "description": "800 Gems",
+      "price": 167.99,
+      "offer": 10,
+      "image_url": "../../../assets/images.jpg",
+      "type": "gems",
+      "amount": 800,
+      "start_time": "2021-02-14 20:00:00",
+      "end_time": "2021-02-16 13:00:00"
+    }
+  ]
+}

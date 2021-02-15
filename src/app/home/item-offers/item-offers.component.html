@@ -1,0 +1,7 @@
+<div class="pt-5 container-fluid">
+  <h2 class="dealHeader card-header pt-2"> Today's Deals </h2>
+
+  <div class="row" *ngIf="!showLoader">
+    <app-item-card [filteredItems] = "filteredItems"></app-item-card>
+  </div>
+</div>
