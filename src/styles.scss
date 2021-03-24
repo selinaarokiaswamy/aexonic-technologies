@@ -2,6 +2,11 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body{
-  background-color: #e3f2fd !important;
+  // background-color: #e3f2fd !important;
   padding-bottom: 10%;
 }
+.bg-light{
+  background-color: #e3f2fd !important;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

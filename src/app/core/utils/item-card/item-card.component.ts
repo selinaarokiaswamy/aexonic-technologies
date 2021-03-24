@@ -1,3 +1,5 @@
+import { ItemService } from './../../services/item.service';
+import { ItemListModel } from './../../models/itemList.model';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +8,25 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./item-card.component.scss']
 })
 export class ItemCardComponent implements OnInit {
- @Input() filteredItems: any
-  constructor() { }
+ @Input() items: Array<ItemListModel>
+ selectedItems: Array<ItemListModel>
+  constructor(
+    private itemService: ItemService
+  ) { }
 
   ngOnInit(): void {
+    this.itemService.itemsListCart.subscribe(
+      data => {
+        // console.log(data)
+        this.selectedItems = data
+      }
+    )
+  }
+
+  addToCart(item){
+    this.selectedItems.push(item)
+    this.itemService.itemsListCart.next(this.selectedItems)
+
   }
 
 }

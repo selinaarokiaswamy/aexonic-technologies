@@ -1,0 +1,24 @@
+.totalPrice{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.actions{
+  width: 100%;
+  .goBack{
+    float: left;
+  }
+  .clearCart{
+    float: right;
+  }
+}
+.cardHeader{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+table{
+  width: 100%;
+}

@@ -1,12 +1,19 @@
-<div class="col-lg-4" *ngFor="let item of filteredItems">
+<div class="col-lg-4" *ngFor="let item of items">
   <div class="card">
-    <img class="card-img-top" [src]="item.image_url" alt="Card image cap">
+    <img class="card-img-top" src="../../../../assets/Amazon-diwali-sale.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-text">
-        {{ item.title }}
+        {{ item.item_name }}
+        <button class="btn btn-primary btn-md float-right" type="button" (click) ="addToCart(item)">
+          Add To Cart
+        </button>
       </h5>
       <div class="price">
-        <span>{{ item.salePrice | currency}}</span>
+        <span style="text-decoration: line-through;">{{ item.price | currency}}  </span>
+        <span>{{ item.discountPrice | currency}}</span>
+      </div>
+      <div class="discount">
+        <span>{{ item.discountPercent }}% Off</span>
       </div>
     </div>
   </div>

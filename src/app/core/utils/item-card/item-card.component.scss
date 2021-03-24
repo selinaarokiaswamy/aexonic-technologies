@@ -11,12 +11,22 @@
   }
   .price{
     width: 100%;
-    text-align: right;
     span{
       color: rgb(7, 126, 223);
       font-weight: 600;
       font-size: 2rem;
     }
+
+  }
+  .discount{
+    width: 100%;
+    text-align: right;
+    span{
+      color: #000000;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
   }
 }
 .card:hover{
